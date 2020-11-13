@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+:root{
+  --mainColor:#f57224;
+  --whiteColor:#fff;
+  --blackColor:#000;
+  --lightDark:#222;
+
+}
+
+                           /* Navbar */
+
+.nav{
+  height: 70px;
+  line-height: 50px;
+  box-shadow: 0 5px 10px var(--blackColor);
+  z-index: 9999;
+  
+}
+
+ /* .left-nav{
+
+  
+  }  */
+ 
+ 
+  .right-nav{
+
+    margin-left: 430px;
+  }
+
+    /* .red{
+      border: 3px solid red;
+    }
+    .black{
+      border: 3px solid black;
+    }
+    .green{
+      border: 3px solid green;
+    }
+    .yellow{
+      border: 3px solid yellow;
+    }
+    .blue{
+      border: 3px solid darkblue;
+      
+    } */
+ul li {
+  list-style: none;
+  font-size: larger;
+
+}
+.cart-icon{
+  margin-left: 450px;
+  margin-right: 20px;
+  
+
+}
+.cart-num{
+
+  border: #f57224 2px solid ;
+  background-color: #f57224;
+  border-radius: 50% 2px;
+  font-size: larger;
+  color: #fff;
+
+
+
+}
+.nav-row{
+ 
+height: 60px;
+}
+
+.ul-text{
+  color: #f57224;
+}
+
+
+                        /* header */
+
+.header{
+  background: url('../src/images/navimg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 250px;
+ 
+}
+
+
+
+.banner-text{
+  text-align: center;
+ 
+  color:white;
+  line-height: 220px;
+
+
+  
+}
+        /* products */
+
+.productimg{
+  height: 200px;
+  width: 200px;
+}
+
+.add-to-cart{
+  background-color: #f57224;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* .hot{
+  position: absolute;
+  bottom: 190px;
+  background-color: darkred;
+  color:white;
+  padding: 5px 20px;
+}
+.new{
+  position: absolute;
+  bottom: 190px;
+  background-color: darkgreen;
+  color:white;
+  padding: 5px 20px;
+} */
+
+a{
+   text-decoration: none;
+   color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.product-name{
+  border: 2px solid black;
+  text-align: center;
+}
+.product-price{
+
+  border: 2px solid black;
+  text-align: center;
+
+}
+.productsdiv{
+  margin-top: 10px;
+}
+
+                       /* Footer */
+.copy{
+  background-color: #f57224;
+  margin-top: 10px;
+
+}
+                       
+.products{
+  margin-top: 10px;
+}
+.buttonaddtocart{
+  background-color:#f57224 ;
+  border: none;
+}
